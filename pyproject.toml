@@ -8,6 +8,10 @@ dependencies = [
     "django>=6.0.2",
 ]
 
+[tool.uv]
+# This prevents 'uv run' and 'uv sync' from including dev dependencies by default
+default-groups = []
+
 [dependency-groups]
 dev = [
     "behave>=1.3.3",
