@@ -1,8 +1,9 @@
 from features.layers.behave_layer_stack import BehaveLayerStack
-from layers import DockerLayer
+from layers import DockerLayer, SeleniumLayer
 
 behave_layer_stack = BehaveLayerStack(
-    DockerLayer()
+    DockerLayer(),
+    SeleniumLayer(),
 )
 
 
