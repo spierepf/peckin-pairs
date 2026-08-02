@@ -11,3 +11,5 @@ wheels/
 db.sqlite3
 .idea/
 .env
+
+game/migrations/0*_*.py
