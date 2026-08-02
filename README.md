@@ -15,7 +15,7 @@ docker build . -t peckin-pairs
 To spin up the application:
 
 ```commandline
-docker run -it --rm -v./peckin_pairs:/usr/local/app/peckin_pairs -v./game:/usr/local/app/game  -p 8000:8000 peckin-pairs:latest
+docker run -it --rm -v./peckin_pairs:/usr/local/app/peckin_pairs -p 8000:8000 peckin-pairs:latest
 ```
 
 then, visit the url (http://127.0.0.1:8000) or the admin url (http://127.0.0.1:8000/admin) and log in using the
